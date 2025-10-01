@@ -3,6 +3,9 @@ import TypeWriter from "./TypeWriter";
 import ProjectCard from "./ProjectCard";
 // import ThemeToggle from "./components/ThemeToggle";
 import mohsinImg from "../img/mohsin.png";
+import sentimentImg from '../img/sentiment.png';
+import bigmartImg from '../img/bigmart.png';
+
 import Contact from './ContactForm'
 import Timeline from "./Timeline";
 
@@ -112,14 +115,14 @@ function Home() {
             <ProjectCard
               title="Sentiment Sense"
               description="Advanced sentiment analysis platform analyzing YouTube comments and Reddit discussions using deep learning models through NLP."
-              image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+              image={sentimentImg}
               technologies={["React.js", "Python", "NLP", "VADER"]}
               liveUrl="https://sentiment-sense.netlify.app"
             />
             <ProjectCard
               title="BigMart"
               description="Full-featured e-commerce platform with order management, cart functionality, and seller accounts."
-              image="https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800"
+              image={bigmartImg}
               technologies={["MERN Stack", "Redux", "bcrypt", "JWT"]}
               liveUrl="https://bigmart1.netlify.app"
             />

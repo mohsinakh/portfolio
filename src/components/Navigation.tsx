@@ -36,17 +36,17 @@ const Navigation: React.FC = () => {
         window.scrollTo({ top: element.offsetTop - 60, behavior: "smooth" });
       }
     }
+
+    
   }, [location]);
 
 
-    useEffect(() => {
+  useEffect(() => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }, [location.pathname]);
 
 
 
-
-  
 
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/90 dark:bg-gray-900/90 backdrop-blur-lg z-50">
