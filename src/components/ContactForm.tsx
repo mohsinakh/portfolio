@@ -22,7 +22,7 @@ const ContactForm: React.FC = () => {
       const result = await response.json();
 
       if (result.success) {
-      e.currentTarget.reset(); // reset form first
+      //e.currentTarget.reset(); // reset form first
       setSubmitted(true); // then set submitted
       } else {
         alert("Something went wrong. Please try again.");
