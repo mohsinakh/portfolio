@@ -24,7 +24,7 @@ const timelineData: TimelineItem[] = [
     title: "Backend Developer Intern",
     organization: "Rough Note Malaysia",
     period: "FEB 2025 - MAY 2025",
-    description: "Contributed to multiple web development projects using HTML, CSS, JavaScript, and backend technologies.",
+    description: "Led a team to deliver real-world, in-use products for clients, overseeing the complete end-to-end development cycle.",
     imgSrc: roughNoteImg
   }
   ,{
