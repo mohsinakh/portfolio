@@ -54,7 +54,7 @@ const Timeline: React.FC = () => {
           <div key={index} className="relative pl-12">
             
             {/* Custom Image instead of icon */}
-            <div className="absolute left-0 p-1 bg-white dark:bg-gray-900 rounded-full border-2 border-blue-500 dark:border-blue-400">
+            <div className="absolute left-0 top-1/2 -translate-y-1/2  p-1 bg-white dark:bg-gray-900 rounded-full border-2 border-blue-500 dark:border-blue-400">
               <img
                 src={item.imgSrc}
                 alt={item.organization}
